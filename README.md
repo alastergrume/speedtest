@@ -10,14 +10,14 @@ Python 3.8 or newer. No external dependencies.
 ## Usage
 
 ```bash
-git clone https://github.com/<your-username>/speedtest.git
+git clone https://github.com/alastergrume/speedtest.git
 cd speedtest
 python speedtest.py https://proof.ovh.net/files/10Mb.dat
 ```
 
 Any direct link to a large file or image will do. The larger the file, the more accurate the result.
 
-The number of requests can be changed with `-c`:
+The number of requests can be changed with `-c` or `--count`:
 
 ```bash
 python speedtest.py https://proof.ovh.net/files/10Mb.dat -c 5
